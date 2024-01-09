@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #784444;
+    
+  }
+  #homeButton{
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: auto;
+  }
+  #rightButtons {
+    display: flex;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+
+  .Menu{
+    position: absolute;
+    top: 100%; /* Position the menu below the Home button */
+    right: 0;
+    display: none;
+    background-color: #333;
+    color: rgb(92, 87, 87);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .Menu.show {
+    display: block;
+  }
+  
