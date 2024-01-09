@@ -1,0 +1,35 @@
+.circular-menu{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.menu-toggle{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-items{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.menu-items.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item{
+    background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
