@@ -8,15 +8,20 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { CircularMenuComponent } from './circular-menu/circular-menu.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, StatisticsComponent, MatSidenavModule, MatIconModule, MatListModule, MatToolbarModule, CircularMenuComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, StatisticsComponent, MatSidenavModule, MatIconModule, MatListModule, MatToolbarModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'myFirstProject';
+  selectedModule: string | null = null;
+  isCardVisible = false;
+
+  
+  
 }
