@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #141313;
+    background-color: #2912dc;
     
   }
   #homeButton{
@@ -22,6 +22,12 @@ header {
   button {
     margin: 0 5px;
     padding: 5px 10px;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
   }
   
 
@@ -39,4 +45,14 @@ header {
   .Menu.show {
     display: block;
   }
+ 
+
+  .icon {
+    margin-right: 8px; /* Adjust the value as needed */
+  }
+
+  #rightIcons mat-icon:last-child {
+    margin-left: 0; /* Remove margin from the last icon to prevent extra spacing */
+  }
+
   

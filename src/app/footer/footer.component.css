@@ -1,49 +1,47 @@
-footer {
-    background-color: #070707;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-   
-  }
-  
-  #footerBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: auto; 
-    margin-right: 5px;
-    
-  }
-  
-  
-  #centerText {
-    text-align: center;
-    flex-grow: 1;
-    margin-top: auto; 
-  }
-  
-  #leftIcons{
-    display: flex;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: auto;
-  }
+#footerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adjust padding as needed */
+  background-color: blue;
+}
 
+#leftIcons{
+  display: flex;
+  gap: 10px;
+}
+#rightIcons {
+  display: flex;
+  gap: 10px;
+}
+#leftIcons mat-icon {
+  margin-left: 10px; /* Adjust the value as needed for horizontal spacing */
+}
 
-  #rightIcons {
-    display: flex;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 30px;
-  }
-  
-  button {
-    margin: 0 5px ;
-    padding: 5px 10px;
+#leftIcons mat-icon:last-child {
+  margin-right: 0; /* Remove margin from the last icon to prevent extra spacing */
+}
 
-  }
-  
+#leftIcons mat-icon:not(:last-child) {
+  margin-left: 10px; /* Adjust the value as needed for horizontal spacing */
+}
 
-  
+#leftIcons mat-icon:last-child {
+  margin-left: 0; /* Remove margin from the last icon to prevent extra spacing */
+}
+#rightIcons mat-icon {
+  margin-right: 10px; /* Adjust the value as needed for horizontal spacing */
+}
+
+#rightIcons mat-icon:last-child {
+  margin-left: 0; /* Remove margin from the last icon to prevent extra spacing */
+}
+
+#rightIcons mat-icon:not(:last-child) {
+  margin-right: 10px; /* Adjust the value as needed for horizontal spacing */
+}
+
+#rightIcons mat-icon:last-child {
+  margin-right: 0; /* Remove margin from the last icon to prevent extra spacing */
+}
+

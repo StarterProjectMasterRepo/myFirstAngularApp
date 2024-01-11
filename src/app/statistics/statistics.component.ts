@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-statistics',
@@ -8,5 +9,4 @@ import { Component } from '@angular/core';
   styleUrl: './statistics.component.css'
 })
 export class StatisticsComponent {
-  
 }
